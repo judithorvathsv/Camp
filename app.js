@@ -61,7 +61,6 @@ const sessionConfig = {
 }
 app.use(session(sessionConfig))
 
-
 //for flash
 const flash = require('connect-flash')
 app.use(flash())
